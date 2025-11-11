@@ -1,0 +1,30 @@
+name: Multi-Job Workflow
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+
+jobs:
+  info-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        run: actions/checkout@v4
+
+      - name: Print Git Info
+        run: |
+          echo "Branch: $GITHUB_REF"
+          echo "user : $GITHUB_ACTOR"
+          echo "repository : $GITHUB_REPOSITORY"
+  system-check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print System Information
+        run: |
+          echo "OS Info :"
+          uname -a
+          echo "Disk space:"
+          df -h
+          echo "free Memory:"
+          free -m
