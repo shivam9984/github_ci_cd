@@ -10,7 +10,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Print welcome message
-        run: echo"Hello $GITHUB_ACTOR! your workflow is running"
+        run: echo "Hello $GITHUB_ACTOR! your workflow is running"
 
       - name: List files
         run: ls -la
