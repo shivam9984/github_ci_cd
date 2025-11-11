@@ -1,0 +1,17 @@
+name: First Github Action
+on: [push]
+
+jobs:
+  hello-world:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Print welcome message
+        run: echo"Hello $GITHUB_ACTOR! your workflow is running"
+
+      - name: List files
+        run: ls -la
+
