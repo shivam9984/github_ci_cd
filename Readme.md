@@ -24,9 +24,9 @@ Run automated checks before merge
 
 Trigger custom scripts or services
 
-Enforce repository standards
+Enforce repository stand
 
-Integrate with CI/CD pipelines
+Add custom scripts 
 
 Use Cases
 
