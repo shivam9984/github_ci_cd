@@ -28,3 +28,15 @@ Enforce repository standards
 
 Integrate with CI/CD pipelines
 
+Use Cases
+
+Validate commits or PR metadata
+
+Run automated checks before merge
+
+Trigger custom scripts or services
+
+Enforce repository standards
+
+Integrate with CI/CD pipelines
+
