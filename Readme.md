@@ -16,27 +16,4 @@ Built with a focus on developer productivity, clean configuration, and CI/CD bes
 
 📦 Lightweight and fast execution
 
-📦 Use Cases
-
-Validate commits or PR metadata
-
-Run automated checks before merge
-
-Trigger custom scripts or services
-
-Enforce repository stand
-
-Add custom scripts 
-
-Use Cases
-
-Validate commits or PR metadata
-
-Run automated checks before merge
-
-Trigger custom scripts or services
-
-Enforce repository standards
-
-Integrate with CI/CD pipelines
 
